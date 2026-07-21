@@ -1,0 +1,60 @@
+:root {
+  --color-ink: #172033;
+  --color-ink-hover: #283650;
+  --color-indigo: #4b4aa8;
+  --color-teal: #167c80;
+  --color-amber: #b7791f;
+  --color-background: #f7f8fc;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #eef1f7;
+  --color-border: #d9dfea;
+  --color-text-primary: #172033;
+  --color-text-secondary: #556176;
+  --color-text-tertiary: #748097;
+  --color-success: #247a55;
+  --color-success-surface: #e8f5ee;
+  --color-warning: #9a6513;
+  --color-warning-surface: #fff4dd;
+  --color-error: #b4233a;
+  --color-error-surface: #fdecef;
+
+  --radius-button: 0.625rem;
+  --radius-input: 0.875rem;
+  --radius-card: 1.125rem;
+  --radius-dialog: 1.5rem;
+
+  --shadow-subtle: 0 8px 24px rgb(23 32 51 / 0.06);
+  --shadow-raised: 0 20px 50px rgb(23 32 51 / 0.13);
+  --shadow-focus: 0 0 0 4px rgb(75 74 168 / 0.16);
+  --gradient-hero:
+    radial-gradient(circle at 74% 22%, rgb(75 74 168 / 0.15), transparent 28rem),
+    radial-gradient(circle at 18% 78%, rgb(22 124 128 / 0.08), transparent 25rem);
+}
+
+.dark {
+  --color-ink: #f8fafc;
+  --color-ink-hover: #e2e8f0;
+  --color-indigo: #8b8cff;
+  --color-teal: #5eead4;
+  --color-amber: #fbbf24;
+  --color-background: #0b1220;
+  --color-surface: #0f172a;
+  --color-surface-subtle: #111827;
+  --color-border: #334155;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #cbd5e1;
+  --color-text-tertiary: #94a3b8;
+  --color-success: #6ee7b7;
+  --color-success-surface: #0f172a;
+  --color-warning: #fcd34d;
+  --color-warning-surface: #312e1f;
+  --color-error: #fca5a5;
+  --color-error-surface: #331a1f;
+
+  --shadow-subtle: 0 15px 40px rgb(15 23 42 / 0.32);
+  --shadow-raised: 0 20px 60px rgb(15 23 42 / 0.45);
+  --shadow-focus: 0 0 0 4px rgb(96 165 250 / 0.38);
+  --gradient-hero:
+    radial-gradient(circle at 74% 22%, rgb(99 102 241 / 0.14), transparent 28rem),
+    radial-gradient(circle at 18% 78%, rgb(20 184 166 / 0.1), transparent 25rem);
+}

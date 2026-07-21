@@ -1,0 +1,26 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ASUS\Documents\Codex\2026-07-19\create-a-scheduled-task-called-weekday-2\.npmrc
+5 silly config load:file:C:\Users\ASUS\.npmrc
+6 silly config load:file:C:\Users\ASUS\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "work\\npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\ASUS\Documents\Codex\2026-07-19\create-a-scheduled-task-called-weekday-2\work\npm-cache\_logs\2026-07-20T07_03_17_788Z-
+10 verbose logfile C:\Users\ASUS\Documents\Codex\2026-07-19\create-a-scheduled-task-called-weekday-2\work\npm-cache\_logs\2026-07-20T07_03_17_788Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+14 silly idealTree buildDeps
+15 silly fetch manifest @tailwindcss/postcss@^4.1.0
+16 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+17 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 2 failed with EACCES
+20 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+21 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 3 failed with EACCES
+22 silly fetch manifest next@^16.1.0
+23 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+24 http fetch GET https://registry.npmjs.org/next attempt 1 failed with EACCES
+25 http fetch GET https://registry.npmjs.org/next attempt 2 failed with EACCES

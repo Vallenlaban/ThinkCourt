@@ -1,29 +1,116 @@
 # ThinkCourt
 
-ThinkCourt is a guided reasoning practice space that helps learners examine claims, evidence, assumptions, and alternatives before reaching a conclusion.
+**Train Critical Thinking Through Structured AI-Guided Reasoning**
 
-## MVP status
+---
 
-The complete guest MVP is implemented:
+## Overview
 
-- Premium responsive landing page and guided-case entry path
-- Claim framing with deterministic clarity cues
-- Four-stage non-chat Reasoning Court
-- Fixture-backed coaching for keyless demos
-- GPT-5.6 Terra Responses API integration when configured
-- Structured output validation and API rate guards
-- Guest session persistence in browser local storage
-- Final Reasoning Snapshot with claim evolution and qualitative feedback
-- Accessible loading, empty, error, and reduced-motion states
+ThinkCourt is an AI-powered learning experience designed to help people strengthen their critical thinking instead of simply receiving answers.
 
-## Local development
+Rather than acting as an answer generator, ThinkCourt guides users through a structured reasoning process. Users examine assumptions, evaluate evidence, respond to counterarguments, and reflect on whether their position has changed.
 
-1. Copy `.env.example` to `.env.local`.
-2. Add `GEMINI_API_KEY` to enable Gemini. Without it, the built-in fixture flow remains available.
-3. Install dependencies with `npm install`.
-4. Start the development server with `npm run dev`.
-5. Run checks with `npm run lint`, `npm run typecheck`, and `npm run build`.
+Built for the **OpenAI Build Week**.
 
-## Deployment
+---
 
-Deploy the repository to Vercel. Add `GEMINI_API_KEY` and `GEMINI_MODEL=gemini-1.5-pro` to Vercel environment variables. The health endpoint is available at `/api/health`.
+## The Problem
+
+Modern AI tools make it incredibly easy to receive instant answers.  
+While this improves productivity, it also creates a new challenge:
+
+> People often stop thinking before reaching a conclusion.
+
+Students, professionals, and everyday users may accept AI-generated responses without questioning assumptions, evaluating evidence, or considering opposing viewpoints.
+
+ThinkCourt was created to encourage reasoning before conclusions.
+
+---
+
+## Our Solution
+
+ThinkCourt transforms AI from an answer machine into a reasoning coach.
+
+Instead of giving users the "correct" answer, ThinkCourt guides them through four structured stages:
+
+1. **Foundation** — Identify assumptions and biases behind a claim.  
+2. **Evidence** — Evaluate supporting data and check sources.  
+3. **Challenge** — Face counterarguments and logical stress-tests.  
+4. **Reflection** — Assess how their position shifted after the exercise.
+
+The objective is not to change what users believe, but to strengthen **how** they think.
+
+---
+
+## Features
+
+### 🎯 Bring Your Own Claim
+Users can enter any claim and experience a structured reasoning journey.  
+*Example: "AI should replace teachers."*
+
+### 📚 Guided Cases
+Three curated reasoning scenarios are included:
+- 🎓 **Education** — Assessment integrity vs. AI assistance  
+- 💼 **Work** — Automation vs. Human collaboration  
+- 💻 **Technology** — Data privacy vs. Innovation  
+
+Each case explores realistic trade-offs rather than promoting a single "correct" answer.
+
+### 🧠 Reasoning Snapshot
+At the end of each session, users receive:
+- **Critical Thinking Score**  
+- **Reasoning Progress**  
+- **Strongest Skill & Growth Areas**  
+- **Final Position Reflection**  
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)  
+- **Library:** React & TypeScript  
+- **Styling:** Tailwind CSS  
+- **Hosting:** Vercel  
+
+---
+
+## GPT-5.6 Usage
+
+GPT-5.6 supported the design and refinement of ThinkCourt's structured reasoning experience.
+
+It supported the project by:
+- Designing multi-stage reasoning flows and cognitive transitions.  
+- Crafting educational coaching prompts to act as a guide, not an answer provider.  
+- Refining scoring rubrics and feedback loops based on real-world methodologies.  
+
+---
+
+## Codex Usage
+
+Codex accelerated development by assisting with:
+- **React component implementation**
+- **TypeScript development**
+- **Refactoring**
+- **Debugging**
+- **Routing fixes**
+- **State management improvements**
+- **UI implementation** 
+
+This drastically reduced boilerplate coding time, allowing focus on user experience and educational logic.
+
+---
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open:
+
+http://localhost:3000
+
+Built for **OpenAI Build Week**.
+
+ThinkCourt demonstrates how AI can be used not only to generate answers, but also to cultivate stronger reasoning and critical thinking.

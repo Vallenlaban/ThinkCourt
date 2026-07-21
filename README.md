@@ -96,7 +96,7 @@ Codex accelerated development by assisting with:
 - **State management improvements**
 - **UI implementation** 
 
-This drastically reduced boilerplate coding time, allowing focus on user experience and educational logic.
+Codex accelerated development by reducing implementation time, allowing more focus on refining the learning experience and reasoning flows.
 
 ---
 
